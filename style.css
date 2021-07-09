@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 2rem auto;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 80px;
+  text-shadow: 5px 5px 5px 5px rgba(255, 255, 255, 0.2px);
+}
+body {
+  background: url("https://images.unsplash.com/photo-1559825481-12a05cc00344?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=401&q=80");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  border-radius: 5px;
+}
+
+table {
+  background-color: rgba(216, 248, 252, 0.7);
+  border-collapse: collapse;
+  margin: auto;
+  box-shadow: 5px 5px 5px 6px rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+}
+
+td {
+  border: 4px solid #005f73;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+table tr:first-child td {
+  border-top: none;
+}
+table tr:last-child td {
+  border-bottom: none;
+}
+table tr td:first-child {
+  border-left: none;
+}
+table tr td:last-child {
+  border-right: none;
+}
+.endgame {
+  display: none;
+  width: 200px;
+  top: 350px;
+  background-color: rgba(128, 128, 128, 0.3);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
+.btn {
+  display: none;
+  width: 200px;
+  top: 680px;
+  background-color: rgb(29, 53, 87);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+  font-family: "Comic Sans MS", sans-serif;
+  cursor: pointer;
+}
+.btn:active {
+  transform: translateY(3px);
+}
+
+.glass {
+  margin: 5rem auto;
+  width: 600px;
+  padding: 5rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  border-radius: 8px;
+  border: 2px solid transparent;
+  box-shadow: 10px -10px 2px 2px rgba(45, 55, 68, 0.3);
+}
